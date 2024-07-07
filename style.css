@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+   background-color: black;
+}
+
+.main {
+   background-image: url(assets/images/background.jpg);
+   background-size: max(1200px, 100vw);
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: 644px;
+   position: relative;
+}
+
+.main .box {
+   height: 644px;
+   width: 100%;
+   opacity: 0.69;
+   background-color: black;
+   position: absolute;
+   top: 0;
+
+}
+
+nav {
+   max-width: 60vw;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 62px;
+
+}
+
+nav img {
+   color: red;
+   width: 130px;
+   position: relative;
+   z-index: 10;
+}
+
+nav button {
+   position: relative;
+   z-index: 10;
+}
+
+.data {
+   height: calc(100% - 62px);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: white;
+   position: relative;
+   gap: 23px;
+   padding: 0 30px;
+}
+
+.data> :first-child {
+
+   font-weight: 900;
+   font-size: 48px;
+   text-align: center;
+}
+
+.data> :nth-child(2) {
+   font-weight: 400;
+   font-size: 24px;
+   text-align: center;
+}
+
+.data> :nth-child(3) {
+   font-weight: 400;
+   font-size: 20px;
+   text-align: center;
+}
+
+.break {
+   height: 7px;
+   background-color: rgb(46, 43, 43);
+   position: relative;
+   z-index: 20;
+}
+
+.btn {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 3px 8px;
+   font-weight: bold;
+   color: white;
+   background-color: rgba(248, 243, 243, 0.342);
+   border: 1px solid white;
+   border-radius: 4px;
+   cursor: pointer;
+   font-weight: 400;
+}
+
+.btn-red {
+   background-color: red;
+   color: white;
+   font-weight: 500;
+   padding: 7px 19px;
+   font-size: 19px;
+   border-radius: 4px;
+   margin-left: 5px;
+}
+
+.btn-red-sn {
+   background-color: red;
+   color: white;
+
+}
+
+.main input {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px 100px 10px 16px;
+   font-size: 12px;
+   border-radius: 4px;
+   background-color: rgba(23, 23, 23, 0.7);
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   color: white;
+}
+
+.register-data {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.first {
+   display: flex;
+   justify-content: center;
+   max-width: 70vw;
+   margin: auto;
+   color: white;
+   justify-content: center;
+   align-items: center;
+}
+
+.secimg {
+   position: relative;
+
+}
+
+.secimg img {
+   max-width: 555px;
+   position: relative;
+   z-index: 10;
+}
+
+.secimg video {
+   position: absolute;
+   top: 51px;
+   right: 0;
+   width: 555px;
+}
+
+.first>div {
+   display: flex;
+   flex-direction: column;
+}
+
+.first>div :first-child {
+   font-size: 48px;
+   font-weight: bolder;
+   padding: 34px 0;
+}
+
+.first>div :nth-child(2) {
+   font-size: 24px;
+}
+
+.faq h2 {
+   text-align: center;
+   font-size: 48px;
+
+}
+
+.faq {
+   background-color: black;
+   color: white;
+   padding: 34px;
+   font-size: 24px;
+}
+
+.faqbox {
+   transition: all 1s ease-out;
+   font-size: 24px;
+   display: flex;
+   background-color: #2d2d2d;
+   padding: 24px;
+   max-width: 60vw;
+   margin: 34px auto;
+   justify-content: space-between;
+   cursor: pointer;
+}
+
+.faqbox:hover {
+   background-color: #414141;
+   color: white;
+}
+
+.info {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.info> :first-child {
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   padding: 16px 0;
+}
+
+.info input {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px 100px 10px 16px;
+   font-size: 12px;
+   border-radius: 4px;
+   background-color: rgba(23, 23, 23, 0.7);
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   color: white;
+}
+
+.info-data {
+   padding: 0px 0px 50px 0px;
+}
+
+footer {
+   color: white;
+   max-width: 60vw;
+   margin: auto;
+   padding: 14px;
+}
+
+.footer a {
+   color: white;
+   font-size: 14px;
+}
+
+.footer {
+   font-size: 14px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   color: white;
+}
+
+.footer-items {
+   display: flex;
+   flex-direction: column;
+   gap: 23px;
+}
+
+.question {
+   padding: 34px 0px;
+}
+
+.question1 {
+   padding: 34px 0px;
+}
+@media screen and (max-width: 1300px) {
+
+   nav{
+       max-width: 90vw;
+   }
+
+   .first {
+       flex-wrap: wrap;
+   }
+
+   .secimg img {
+       width: 280px;
+   }
+
+   .secimg video {
+       width: 280px;
+   }
+
+   .data> :nth-child(1) {
+       font-size: 32px;
+   }
+
+   .data> :nth-child(2) {
+       font-size: 18px;
+   }
+
+   .data> :nth-child(3) {
+       font-size: 18px;
+   }
+
+   .register-data {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 16px;
+   }
+
+   .faq h2 {
+       text-align: center;
+       font-size: 32px;
+   }
+
+   footer {
+       max-width: 90vw;
+       padding: 75px 0;
+   }
+
+   .footer-item{
+       align-items: center;
+   }
+
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+   .footer {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 25px;
+   }
+}
+
+
+.footer a {
+   font-size: 14px;
+   color: white;
+}
+
+.footer-item {
+   display: flex;
+   flex-direction: column;
+   gap: 23px;
+}
